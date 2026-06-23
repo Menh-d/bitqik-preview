@@ -1,0 +1,303 @@
+
+================ PART 1 (y-pixels from 0 to 962) ================
+[0.065, 0.911, 0.137, 0.085]: & bitgik
+[0.225, 0.947, 0.047, 0.017]: About Us
+[0.304, 0.947, 0.042, 0.016]: Services
+[0.376, 0.947, 0.055, 0.017]: Contact Us
+[0.464, 0.947, 0.097, 0.017]: 5 Announcements
+[0.593, 0.947, 0.055, 0.016]: • Careers
+[0.682, 0.950, 0.009, 0.014]: B
+[0.696, 0.945, 0.048, 0.018]: Exchange
+[0.092, 0.541, 0.475, 0.078]: Easy-to-use, Secured,
+[0.090, 0.484, 0.263, 0.058]: and trusted
+[0.491, 0.452, 0.016, 0.016]: =''2
+[0.090, 0.393, 0.344, 0.066]: cryptocurrency
+[0.090, 0.315, 0.398, 0.071]: exchange in Laos.
+[0.090, 0.283, 0.291, 0.021]: Deposit & withdraw using a local bank account.
+[0.634, 0.418, 0.074, 0.032]: → bitgik
+
+================ PART 2 (y-pixels from 962 to 1924) ================
+[0.076, 0.895, 0.263, 0.041]: Announcements
+[0.078, 0.783, 0.193, 0.026]: • bitqik | IMPORTANT NOTICE
+[0.385, 0.783, 0.106, 0.026]: bitgik | DELISTED
+[0.077, 0.648, 0.161, 0.021]: EXPRESS BUY/SELL FUNCTION
+[0.077, 0.616, 0.173, 0.019]: TEMPORARILY UNAVAILABLE
+[0.081, 0.580, 0.092, 0.014]: #@x:•bitqik.com
+[0.363, 0.653, 0.134, 0.021]: TOKEN DELISTINGS
+[0.328, 0.646, 0.022, 0.012]: Buy /Se
+[0.368, 0.580, 0.092, 0.014]: #oxibitqik.com
+[0.078, 0.511, 0.231, 0.030]: Guöynğy / Important Notice
+[0.076, 0.486, 0.042, 0.011]: 20/06/2026
+[0.076, 0.432, 0.023, 0.018]: 38..
+[0.077, 0.384, 0.057, 0.011]: Read More →
+[0.378, 0.509, 0.231, 0.032]: by / Token Delisting
+[0.362, 0.484, 0.049, 0.023]: Notice
+[0.360, 0.452, 0.044, 0.016]: 16/06/2026
+[0.362, 0.349, 0.058, 0.016]: Read More →
+[0.474, 0.248, 0.051, 0.019]: Load More
+[0.074, 0.002, 0.455, 0.034]: Wa male crynto day
+[0.670, 0.785, 0.108, 0.023]: bitqik | DELISTED
+[0.648, 0.653, 0.135, 0.021]: TOKEN DELISTINGS
+[0.901, 0.623, 0.013, 0.009]: GOc
+[0.823, 0.605, 0.013, 0.009]: VRA
+[0.654, 0.582, 0.092, 0.011]: Go x: @bitqik.com
+[0.852, 0.573, 0.035, 0.011]: PLAYSOLANA
+[0.666, 0.511, 0.230, 0.030]: uöymungu§y / Token Delisting
+[0.648, 0.484, 0.049, 0.023]: Notice
+[0.648, 0.454, 0.042, 0.014]: 10/06/2026
+[0.648, 0.351, 0.058, 0.014]: Read More →
+
+================ PART 3 (y-pixels from 1924 to 2886) ================
+[0.077, 0.884, 0.741, 0.067]: Sign up and get started in minutes.
+[0.096, 0.591, 0.158, 0.023]: Create an account
+[0.119, 0.538, 0.113, 0.019]: Sign up on our website
+[0.115, 0.511, 0.122, 0.016]: or download the app for
+[0.147, 0.479, 0.057, 0.019]: free today!
+[0.398, 0.586, 0.131, 0.028]: Link your bank
+[0.429, 0.554, 0.070, 0.021]: account
+[0.413, 0.523, 0.105, 0.016]: Deposit using a local
+[0.419, 0.495, 0.090, 0.014]: bank account or a
+[0.408, 0.463, 0.110, 0.016]: cryptocurrency wallet.
+[0.676, 0.586, 0.153, 0.030]: Hold, buy and sell
+[0.677, 0.541, 0.150, 0.016]: Trade cryptocurrencies on the
+[0.674, 0.509, 0.157, 0.018]: most trusted exchange in Laos!
+[0.442, 0.212, 0.193, 0.101]: › bitqik
+
+================ PART 4 (y-pixels from 2886 to 3848) ================
+[0.077, 0.643, 0.195, 0.037]: bitqik EXCHANGE
+[0.077, 0.566, 0.219, 0.039]: bitqik BLOCKCHAIN
+[0.077, 0.484, 0.184, 0.046]: bitqik ACADEMY
+[0.077, 0.411, 0.166, 0.040]: bitqik INSIGHT
+[0.077, 0.338, 0.163, 0.037]: bitqik WALLET
+[0.404, 0.774, 0.193, 0.043]: Our Services
+[0.366, 0.676, 0.554, 0.019]: Our exchange platform makes it simple to research the crypto market, buy bitcoin and other cryptos, and build a
+[0.366, 0.646, 0.520, 0.018]: portfolio for the future of money. It is the most trusted and easy-to-use cryptocurrency exchange in Laos.
+[0.366, 0.584, 0.520, 0.017]: Provide blockchain technology to solve existing problems and give consultation to prospective customers.
+[0.366, 0.518, 0.539, 0.021]: bitik Academy is an open access e-learning class, providing education of blockchain, digital assets and crypto
+[0.363, 0.491, 0.400, 0.019]: learning resources. Moreover, we hold offline training for interested participants.
+[0.366, 0.429, 0.439, 0.018]: bitgik insight provides financial analysis, data-driven insights for investors in the industry.
+[0.366, 0.354, 0.513, 0.021]: bitqik Wallet is a secure, decentralized wallet where users can send, receive and store their digital funds.
+
+================ PART 5 (y-pixels from 3848 to 4810) ================
+[0.510, 0.941, 0.234, 0.041]: Why Choose bitqik?
+[0.331, 0.870, 0.110, 0.084]: bitalik
+[0.536, 0.860, 0.061, 0.020]: Easy to use
+[0.536, 0.828, 0.372, 0.021]: Purchase cryptos with Visa, Mastercard, bank transfer. One-stop platform to initiate
+[0.536, 0.802, 0.227, 0.026]: your cryptocurrency investment and management.
+[0.536, 0.771, 0.083, 0.017]: Strong security
+[0.536, 0.740, 0.376, 0.021]: Protection against DDoS attacks, full data encryption, hybrid hot/cold wallet systems.
+[0.536, 0.719, 0.247, 0.018]: 100% secure for trading and digital asset management.
+[0.515, 0.683, 0.092, 0.016]: V 24/7 support
+[0.538, 0.653, 0.378, 0.019]: Our support team is available 24/7 via email, phone, and live chat around the clock to
+[0.536, 0.630, 0.156, 0.017]: answer your questions at any time
+[0.536, 0.594, 0.140, 0.019]: Competitive commissions
+[0.536, 0.563, 0.368, 0.021]: Reasonable fees for takers and makers, special conditions for high-volume traders,
+[0.536, 0.541, 0.166, 0.016]: and strong offers for market makers.
+[0.535, 0.504, 0.081, 0.017]: Robust trading
+[0.538, 0.475, 0.349, 0.021]: WebSocket, REST API and FIX API for automated trading based on the needs of
+[0.536, 0.452, 0.124, 0.016]: individuals and institutions.
+[0.119, 0.158, 0.765, 0.064]: Reasons to invest in Cryptocurrencies?
+[0.674, 0.089, 0.022, 0.014]: SEEN
+[0.624, 0.084, 0.020, 0.009]: Wallet
+[0.513, 0.071, 0.022, 0.011]: History
+[0.214, 0.018, 0.093, 0.057]: < bitaik
+[0.353, 0.053, 0.036, 0.014]: Dashboard
+[0.397, 0.058, 0.056, 0.014]: Buy/Sell Crypto 0
+[0.458, 0.064, 0.023, 0.012]: Market
+[0.392, 0.004, 0.026, 0.010]: 24H High
+[0.473, 0.011, 0.051, 0.019]: 24h Volume(USDT)
+[0.474, 0.002, 0.033, 0.009]: 1.788.676.98
+
+================ PART 6 (y-pixels from 4810 to 5772) ================
+[0.227, 0.973, 0.045, 0.014]: BTC/USDT -
+[0.212, 0.925, 0.028, 0.014]: Chart
+[0.240, 0.929, 0.033, 0.016]: 15m it
+[0.291, 0.989, 0.032, 0.011]: 50,182.89
+[0.288, 0.973, 0.036, 0.014]: -50,182 89USD
+[0.394, 0.989, 0.025, 0.011]: 49,990.00
+[0.278, 0.932, 0.068, 0.024]: ~ Indicators n a
+[0.222, 0.868, 0.029, 0.014]: 045832.88
+[0.222, 0.852, 0.033, 0.014]: MA(19.89,88)
+[0.256, 0.874, 0.031, 0.012]: M 45632.88
+[0.288, 0.879, 0.029, 0.011]: L4583288
+[0.319, 0.880, 0.073, 0.026]: C 4503288 +83288(+0.45x)
+[0.260, 0.858, 0.028, 0.011]: MA10,89,88
+[0.293, 0.861, 0.081, 0.026]: MAO: 10.00.88 МАВО: 1045089,88
+[0.284, 0.651, 0.041, 0.022]: MA2012.543458
+[0.328, 0.660, 0.047, 0.023]: VOLUME 4505384
+[0.286, 0.559, 0.015, 0.014]: 2016
+[0.263, 0.506, 0.039, 0.025]: Open Order
+[0.320, 0.568, 0.013, 0.014]: 2017
+[0.384, 0.582, 0.013, 0.014]: 201°
+[0.320, 0.521, 0.042, 0.024]: Order History
+[0.272, 0.475, 0.040, 0.023]: Date & Time
+[0.322, 0.487, 0.037, 0.024]: Price(USDT)
+[0.370, 0.500, 0.041, 0.025]: Amount(BTC)
+[0.414, 0.591, 0.013, 0.011]: 2020
+[0.421, 0.514, 0.037, 0.023]: Total(USDT)
+[0.491, 0.534, 0.016, 0.011]: туре
+[0.525, 0.966, 0.031, 0.014]: Order Book
+[0.626, 0.979, 0.013, 0.011]: spot
+[0.558, 0.973, 0.035, 0.012]: Markot Trade
+[0.647, 0.952, 0.012, 0.011]: BUY
+[0.500, 0.927, 0.017, 0.011]: 105000
+[0.597, 0.931, 0.022, 0.012]: Tota (BITC
+[0.529, 0.922, 0.028, 0.011]: Prices(USOT)
+[0.666, 0.927, 0.017, 0.009]: Market
+[0.503, 0.904, 0.016, 0.011]: 100000
+[0.503, 0.881, 0.015, 0.011]: 95000
+[0.507, 0.813, 0.016, 0.011]: 80000
+[0.509, 0.790, 0.016, 0.011]: 15000
+[0.510, 0.767, 0.016, 0.011]: 70000
+[0.512, 0.744, 0.016, 0.011]: 65000
+[0.513, 0.721, 0.016, 0.011]: 60000
+[0.633, 0.894, 0.044, 0.016]: Avalable Balance O
+[0.609, 0.879, 0.015, 0.009]: 000547
+[0.635, 0.865, 0.015, 0.011]: Pice
+[0.648, 0.868, 0.020, 0.014]: - 1+
+[0.584, 0.801, 0.016, 0.011]: COE34S
+[0.613, 0.826, 0.013, 0.009]: 0002%
+[0.613, 0.806, 0.015, 0.011]: 0.00041
+[0.615, 0.790, 0.015, 0.009]: 03000
+[0.540, 0.750, 0.069, 0.029]: / 50,182.89 • 50/8289050
+[0.618, 0.749, 0.015, 0.011]: 00009
+[0.641, 0.760, 0.010, 0.005]: Told
+[0.536, 0.699, 0.015, 0.011]: 55000
+[0.641, 0.696, 0.015, 0.011]: CORTAN
+[0.536, 0.676, 0.016, 0.011]: S0000
+[0.538, 0.653, 0.016, 0.011]: (45000
+[0.615, 0.655, 0.015, 0.011]: 002201
+[0.539, 0.632, 0.016, 0.009]: 140000
+[0.617, 0.597, 0.045, 0.022]: Show of troding poin
+[0.640, 0.573, 0.017, 0.011]: Action
+[0.566, 0.553, 0.037, 0.020]: Filled Amount
+[0.612, 0.566, 0.017, 0.011]: status
+[0.517, 0.539, 0.041, 0.023]: Executed Price
+[0.695, 0.900, 0.013, 0.011]: 941
+[0.688, 0.872, 0.054, 0.011]: ** BCUSDT +3.10%)
+[0.786, 0.897, 0.026, 0.011]: •/P-
+[0.792, 0.829, 0.015, 0.014]: (BTC)
+[0.785, 0.792, 0.017, 0.009]: c.ocsc)
+[0.468, 0.527, 0.012, 0.011]: side
+[0.460, 0.438, 0.042, 0.024]: No Data Found
+[0.661, 0.438, 0.015, 0.011]: Home
+[0.706, 0.669, 0.022, 0.012]: Buy BYC
+[0.682, 0.646, 0.028, 0.014]: Orders (2)
+[0.676, 0.598, 0.025, 0.014]: BTCUSOT
+[0.670, 0.550, 0.025, 0.014]: BTCUSOT
+[0.721, 0.591, 0.013, 0.011]: 0/40c
+[0.722, 0.422, 0.013, 0.011]: Track
+[0.760, 0.660, 0.012, 0.011]: 0.01
+[0.766, 0.632, 0.036, 0.015]: • All Orders
+[0.760, 0.581, 0.034, 0.013]: 2021-8-25 1224
+[0.753, 0.530, 0.036, 0.015]: 209-8-38214
+[0.757, 0.411, 0.013, 0.011]: Wollo
+[0.077, 0.178, 0.142, 0.032]: Control over
+[0.074, 0.123, 0.133, 0.034]: your assets
+[0.076, 0.068, 0.212, 0.018]: You own and store your assets without the
+[0.076, 0.038, 0.257, 0.019]: involvement of a third party. Privacy and control are
+[0.075, 0.006, 0.047, 0.022]: all yours.
+[0.365, 0.178, 0.203, 0.032]: Financial freedom
+[0.365, 0.119, 0.263, 0.019]: Send and receive your money anywhere in the world,
+[0.365, 0.089, 0.250, 0.018]: make transactions online. It is cheaper, faster, and
+[0.365, 0.061, 0.068, 0.014]: easier to use!
+[0.648, 0.178, 0.269, 0.032]: Alternative investment
+[0.650, 0.119, 0.265, 0.019]: New way to manage your risk with Cryptocurrencies.
+[0.651, 0.089, 0.234, 0.018]: Diversify your portfolio for both long and short
+[0.650, 0.059, 0.096, 0.016]: term investments.
+
+================ PART 7 (y-pixels from 5772 to 6734) ================
+[0.135, 0.804, 0.070, 0.014]: Charging Station
+[0.091, 0.744, 0.076, 0.048]: geulusresu
+[0.132, 0.683, 0.080, 0.014]: GEELY AUTO LAOS
+[0.029, 0.651, 0.060, 0.011]: Recreation center
+[-0.000, 0.354, 0.047, 0.014]: Clothing store
+[0.000, 0.212, 0.035, 0.014]: e Takeout (
+[-0.000, 0.121, 0.042, 0.014]: laus Laos
+[0.007, 0.106, 0.039, 0.018]: Google
+[0.160, 0.416, 0.048, 0.014]: Car repair and
+[0.140, 0.409, 0.067, 0.005]: maintenance corvire
+[0.099, 0.345, 0.094, 0.016]: Nakham Village Office
+[0.165, 0.138, 0.058, 0.142]: Souphenouvong Ave
+[0.113, 0.002, 0.099, 0.048]: bitqik
+[0.818, 0.776, 0.083, 0.016]: Centre journée JMJ
+[0.842, 0.710, 0.047, 0.011]: Fitness cente
+[0.228, 0.634, 0.066, 0.076]: Asean Road
+[0.302, 0.563, 0.067, 0.074]: Asean Road
+[0.260, 0.521, 0.040, 0.104]: anouvong Ave
+[0.246, 0.478, 0.022, 0.051]: Souph:
+[0.244, 0.356, 0.052, 0.016]: Sky Stadium
+[0.241, 0.342, 0.055, 0.015]: & Restaurant
+[0.230, 0.205, 0.044, 0.014]: Lottery shop
+[0.610, 0.667, 0.045, 0.018]: Bansouan
+[0.570, 0.653, 0.087, 0.019]: Restaurant and Café
+[0.584, 0.632, 0.071, 0.015]: reataurant and café
+[0.709, 0.591, 0.042, 0.017]: Pet foods
+[0.452, 0.557, 0.061, 0.014]: Auto parts market
+[0.432, 0.475, 0.028, 0.034]: 4002
+[0.471, 0.488, 0.058, 0.019]: Bitqik Office
+[0.461, 0.450, 0.031, 0.027]: мода
+[0.795, 0.548, 0.029, 0.011]: Chinese
+[0.564, 0.442, 0.055, 0.022]: Han Laap T2
+[0.565, 0.425, 0.026, 0.011]: Laotian
+[0.685, 0.404, 0.058, 0.014]: Café Amazon
+[0.940, 0.479, 0.058, 0.017]: Chansy Tea S
+[0.942, 0.411, 0.057, 0.015]: Laundrori was
+[0.977, 0.379, 0.022, 0.011]: Sako
+[0.333, 0.340, 0.103, 0.017]: Chandara Boutique Hotel
+[0.397, 0.324, 0.039, 0.014]: 4.2* (187)
+[0.398, 0.313, 0.039, 0.012]: 3-star hotel
+[0.539, 0.194, 0.088, 0.133]: Souphanouvong Ave
+[0.631, 0.263, 0.069, 0.070]: Asean Road
+[0.733, 0.175, 0.067, 0.072]: Asean Road
+[0.765, 0.155, 0.028, 0.011]: Chinese
+[0.871, 0.112, 0.017, 0.016]: Den
+[0.847, 0.100, 0.057, 0.012]: Map data ©2026
+[0.906, 0.100, 0.026, 0.011]: Terms
+[0.933, 0.100, 0.065, 0.012]: Report a map error
+[0.385, 0.007, 0.062, 0.016]: Your Name (*)
+
+================ PART 8 (y-pixels from 6734 to 7696) ================
+[0.385, 0.952, 0.061, 0.014]: Your Email (*)
+[0.077, 0.923, 0.276, 0.019]: bitqik Sole Co., Ltd, bitqik Office (4th Floor), Asean Road (T2), Ban
+[0.076, 0.898, 0.265, 0.016]: Nakham, Sikhottabong District Vientiane Capital, 01000, Laos
+[0.385, 0.898, 0.092, 0.014]: Your Phone Number
+[0.385, 0.837, 0.062, 0.016]: Your Message
+[0.109, 0.824, 0.118, 0.016]: Email: support@bitqik.com
+[0.391, 0.652, 0.078, 0.019]: Send Message
+[0.089, 0.491, 0.064, 0.025]: Company
+[0.089, 0.445, 0.048, 0.019]: About Us
+[0.090, 0.416, 0.039, 0.015]: Careers
+[0.090, 0.382, 0.083, 0.014]: Announcements
+[0.090, 0.351, 0.083, 0.014]: Terms of Service
+[0.089, 0.311, 0.069, 0.022]: Privacy Policy
+[0.090, 0.281, 0.058, 0.017]: Community
+[0.090, 0.250, 0.048, 0.017]: Media Kit
+[0.089, 0.215, 0.058, 0.019]: Downloads
+[0.090, 0.186, 0.092, 0.016]: Cookie Preference
+[0.265, 0.495, 0.061, 0.020]: Products
+[0.263, 0.443, 0.064, 0.022]: Express Buy
+[0.266, 0.413, 0.060, 0.020]: Express Sell
+[0.266, 0.380, 0.039, 0.018]: Deposit
+[0.265, 0.351, 0.051, 0.014]: Withdraw
+[0.266, 0.316, 0.041, 0.017]: Convert
+[0.266, 0.282, 0.061, 0.016]: Auto Trader
+[0.264, 0.243, 0.066, 0.024]: Spot Trading
+[0.266, 0.214, 0.078, 0.019]: Futures Trading
+[0.440, 0.495, 0.057, 0.023]: Services
+[0.439, 0.443, 0.051, 0.020]: Exchange
+[0.440, 0.410, 0.048, 0.020]: Academy
+[0.442, 0.380, 0.084, 0.018]: Referral Program
+[0.442, 0.348, 0.084, 0.016]: Transaction Fees
+[0.442, 0.316, 0.106, 0.016]: All-in-One Orderbook
+[0.442, 0.282, 0.097, 0.016]: Multi-Asset Futures
+[0.442, 0.251, 0.068, 0.016]: Collateral and
+[0.440, 0.215, 0.057, 0.018]: Settlement
+[0.616, 0.491, 0.060, 0.025]: Support
+[0.615, 0.443, 0.080, 0.021]: Support Center
+[0.618, 0.414, 0.086, 0.016]: Submit a request
+[0.616, 0.380, 0.070, 0.018]: Trading Rules
+[0.616, 0.346, 0.060, 0.019]: Trading Fee
+[0.616, 0.316, 0.097, 0.016]: AP! Documentation
+[0.414, 0.027, 0.170, 0.014]: Copyright 2026 bitgik - All Rights Reserved.
+[0.792, 0.493, 0.093, 0.026]: bitqik Official
