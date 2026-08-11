@@ -1056,23 +1056,17 @@ border-radius:30px 0px 0px 30px;
 
 <li id="menu-header_2-1214" class="menu-item menu-item-type-custom menu-item-object-custom cz" data-sub-menu=""><a href="./About Us - bitqik - We make crypto easy.html" data-title="About Us"><span>About Us</span></a></li><li id="menu-header_2-1215" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home cz" data-sub-menu=""><a href="./index.html#services" data-title="Services"><span>Services</span></a></li><li id="menu-header_2-1375" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home cz" data-sub-menu=""><a href="./index.html#contact-us" data-title="Contact Us"><span>Contact Us</span></a></li><li id="menu-header_2-2884" class="menu-item menu-item-type-post_type menu-item-object-page cz" data-sub-menu=""><a href="https://bitqik.com.la/announcement/" data-title="→ Announcements"><span><i class="fa czico-049-megaphone"></i>Announcements</span></a></li><li id="menu-header_2-1440" class="menu-item menu-item-type-post_type menu-item-object-page cz" data-sub-menu=""><a href="./Careers - bitqik - We make crypto easy.html" data-title="→ Careers"><span><i class="fa czico-108-link-2"></i>Careers</span></a></li><li id="menu-header_2-2207" class="menu-item menu-item-type-custom menu-item-object-custom cz cz-last-child" data-sub-menu=""><a href="https://bitqik.com/" data-title="→ Exchange"><span><i class="fab fa-bitcoin"></i>Exchange</span></a></li><li class="cz-extra-menus cz" style="display: none;"><a href="./index.html#" class="sf-with-ul" aria-label="More links" aria-hidden="true"><span>&nbsp;<i class="fa czico-055-three cz-extra-menus" style="margin: 0px; display: none;" aria-hidden="true"></i>&nbsp;</span></a><ul class="sub-menu" aria-hidden="true"></ul></li></ul><i class="fa czico-198-cancel cz_close_popup xtra-close-icon hide" aria-label="Close"></i></div></div></div></div></div><div class="Corpse_Sticky cz_sticky_corpse_for_header_4" aria-hidden="true" style="height: 60.4531px;"></div><div class="header_4 smart_sticky header_is_sticky smart_sticky onSticky" style="transform: translateY(-80.4531px); width: 656px;"><div class="row elms_row"><div class="clr"><div class="elms_left header_4_left"><div class="cz_elm logo_header_4_left_2 inner_logo_header_4_left_0" style="margin-top:10px;margin-bottom:10px;"><div class="logo_is_img logo"><a href="./index.html" title="Lao Crypto Trading and Exchange"><img loading="lazy" src="./Home - bitqik - We make crypto easy_files/bitqik-horizontal.png" alt="bitqik - We make crypto easy" width="120" height="40" style="width: 120px"></a></div></div></div></div></div></div></header><div class="page_cover xtra-cover-type-rev">
 				
-				<div class="custom-video-slider">
-					<!-- Slide 1 -->
+								<div class="custom-video-slider">
+					<!-- Slide 1: App Download -->
 					<div class="custom-video-slide active">
 						<video autoplay muted playsinline>
-							<source src="./Home - bitqik - We make crypto easy_files/Application RGB.webm" type="video/webm">
+							<source src="./Home - bitqik - We make crypto easy_files/01_app_download.webm" type="video/webm">
 						</video>
 					</div>
-					<!-- Slide 2 -->
+					<!-- Slide 2: Buy Sell Hold -->
 					<div class="custom-video-slide">
 						<video autoplay muted playsinline>
-							<source src="./Home - bitqik - We make crypto easy_files/buy-sell.webm" type="video/webm">
-						</video>
-					</div>
-					<!-- Slide 3 -->
-					<div class="custom-video-slide">
-						<video autoplay muted playsinline>
-							<source src="./Home - bitqik - We make crypto easy_files/secure_laptop4.webm" type="video/webm">
+							<source src="./Home - bitqik - We make crypto easy_files/02_buy_sell_hold.webm" type="video/webm">
 						</video>
 					</div>
 					
@@ -1088,7 +1082,6 @@ border-radius:30px 0px 0px 30px;
 					<div class="slider-dots">
 						<span class="slider-dot active" data-index="0"></span>
 						<span class="slider-dot" data-index="1"></span>
-						<span class="slider-dot" data-index="2"></span>
 					</div>
 				</div>
 
@@ -1197,7 +1190,7 @@ border-radius:30px 0px 0px 30px;
 					}
 				</style>
 
-				<script>
+								<script>
 					document.addEventListener('DOMContentLoaded', function() {
 						const slides = document.querySelectorAll('.custom-video-slide');
 						const dots = document.querySelectorAll('.slider-dot');
@@ -1210,7 +1203,6 @@ border-radius:30px 0px 0px 30px;
 							const currentVideo = slides[currentSlide].querySelector('video');
 							if (currentVideo) {
 								currentVideo.pause();
-								// Reset playback position after slide has faded out (transition duration is 1s)
 								setTimeout(() => {
 									currentVideo.currentTime = 0;
 								}, 1000);
@@ -1256,31 +1248,9 @@ border-radius:30px 0px 0px 30px;
 						});
 						
 						// Auto-slide to next slide when current video ends
-						slides.forEach((slide, slideIndex) => {
+						slides.forEach((slide) => {
 							const video = slide.querySelector('video');
 							if (video) {
-								// Limit Slide 2 (index 1) playback to 10 seconds
-								if (slideIndex === 1) {
-									video.addEventListener('timeupdate', function() {
-										if (video.currentTime >= 10) {
-											if (slide.classList.contains('active')) {
-												nextSlide();
-											}
-										}
-									});
-								}
-								
-								// Limit Slide 3 (index 2) playback to 11.5 seconds
-								if (slideIndex === 2) {
-									video.addEventListener('timeupdate', function() {
-										if (video.currentTime >= 11.5) {
-											if (slide.classList.contains('active')) {
-												nextSlide();
-											}
-										}
-									});
-								}
-								
 								video.addEventListener('ended', function() {
 									if (slide.classList.contains('active')) {
 										nextSlide();
