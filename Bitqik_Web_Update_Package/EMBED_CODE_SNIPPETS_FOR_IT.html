@@ -132,86 +132,325 @@
         <button class="copy-btn" onclick="copySnippet('stack-code')">Copy Code</button>
         <pre id="stack-code"><code>&lt;!-- ======================================================== --&gt;
 &lt;!-- CAREERS: WANT TO JOIN OUR TEAM? PHOTO STACK COMPONENT   --&gt;
+&lt;!-- (Includes 14 photos and Lightbox Prev/Next navigation) --&gt;
 &lt;!-- ======================================================== --&gt;
 &lt;div class="careers-image-stack-container"&gt;
-  &lt;div class="careers-image-stack"&gt;
-    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1302.JPG" alt="Team Photo 1"&gt;&lt;/div&gt;
-    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1304.JPG" alt="Team Photo 2"&gt;&lt;/div&gt;
-    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1306.JPG" alt="Team Photo 3"&gt;&lt;/div&gt;
-    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1318.JPG" alt="Team Photo 4"&gt;&lt;/div&gt;
-    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1321.JPG" alt="Team Photo 5"&gt;&lt;/div&gt;
-    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1327.JPG" alt="Team Photo 6"&gt;&lt;/div&gt;
-    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1333.JPG" alt="Team Photo 7"&gt;&lt;/div&gt;
+  &lt;div class="careers-image-stack" style="--cards: 14;"&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/IMG_1302.JPG" alt="Bitqik Team Photo 1"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/IMG_1304.JPG" alt="Bitqik Team Photo 2"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/IMG_1306.JPG" alt="Bitqik Team Photo 3"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/IMG_1318.JPG" alt="Bitqik Team Photo 4"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/IMG_1321.JPG" alt="Bitqik Team Photo 5"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/IMG_1327.JPG" alt="Bitqik Team Photo 6"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/IMG_1333.JPG" alt="Bitqik Team Photo 7"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/IMG_1336.JPG" alt="Bitqik Team Photo 8"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/IMG_1350.JPG" alt="Bitqik Team Photo 9"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/IMG_1352.JPG" alt="Bitqik Team Photo 10"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/IMG_8668.JPG" alt="Bitqik Team Photo 11"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/IMG_8701.JPG" alt="Bitqik Team Photo 12"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/PPzDy.jpeg" alt="Bitqik Team Photo 13"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers - bitqik - We make crypto easy_files/PR (1).jpeg" alt="Bitqik Team Photo 14"&gt;&lt;/div&gt;
   &lt;/div&gt;
 
-  &lt;!-- Lightbox Modal for Large View --&gt;
+  &lt;!-- Lightbox Modal for Large Image View with Prev/Next Navigation --&gt;
   &lt;div id="careers-lightbox" class="careers-lightbox"&gt;
-    &lt;span class="careers-lightbox-close"&gt;&amp;times;&lt;/span&gt;
-    &lt;img class="careers-lightbox-content" id="careers-lightbox-img" src="" alt="Enlarged view"&gt;
+    &lt;span class="careers-lightbox-close" title="Close (Esc)"&gt;&amp;times;&lt;/span&gt;
+    &lt;button class="careers-lightbox-prev" title="Previous Image (Left Arrow)"&gt;&amp;lsaquo;&lt;/button&gt;
+    &lt;div class="careers-lightbox-box"&gt;
+      &lt;img class="careers-lightbox-content" id="careers-lightbox-img" src="" alt="Enlarged gallery image"&gt;
+      &lt;div id="careers-lightbox-caption" class="careers-lightbox-caption"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class="careers-lightbox-next" title="Next Image (Right Arrow)"&gt;&amp;rsaquo;&lt;/button&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;style&gt;
-.careers-image-stack-container { display: flex; justify-content: center; align-items: center; width: 100%; min-height: 480px; position: relative; padding: 40px 0; }
+.careers-image-stack-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 480px;
+  position: relative;
+  overflow: visible;
+  padding: 40px 0;
+}
+
 .careers-image-stack {
   --card-trans-duration: 1000ms;
+  --card-trans-easing: linear(0, 0.01 0.8%, 0.038 1.6%, 0.154 3.4%, 0.781 9.7%, 1.01 12.5%, 1.089 13.8%, 1.153 15.2%, 1.195 16.6%, 1.219 18%, 1.224 19.7%, 1.208 21.6%, 1.172 23.6%, 1.057 28.6%, 1.007 31.2%, 0.969 34.1%, 0.951 37.1%, 0.953 40.9%, 0.998 50.4%, 1.011 56%, 0.998 74.7%, 1);
   --card-border-radius: 14px;
   --card-width: 160px;
-  --radius: 320px; 
-  --cards: 7;
-  --arc-size: 0.22;
+  --radius: 340px; 
+  --cards: 14;
+  --arc-size: 0.28;
   --arc-center: 0.75;
   --arc-start: calc(var(--arc-center) - var(--arc-size) / 2);
-  position: relative; width: var(--card-width); aspect-ratio: 4/6; margin: 0 auto;
-}
-.careers-image-stack &gt; div {
-  --arc-step: calc(var(--arc-size) / (var(--cards) - 1));
-  position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: var(--card-border-radius); overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15); cursor: pointer; transition: transform var(--card-trans-duration) ease;
-}
-.careers-image-stack &gt; div:nth-child(1) { --card-i: 0; }
-.careers-image-stack &gt; div:nth-child(2) { --card-i: 1; }
-.careers-image-stack &gt; div:nth-child(3) { --card-i: 2; }
-.careers-image-stack &gt; div:nth-child(4) { --card-i: 3; }
-.careers-image-stack &gt; div:nth-child(5) { --card-i: 4; }
-.careers-image-stack &gt; div:nth-child(6) { --card-i: 5; }
-.careers-image-stack &gt; div:nth-child(7) { --card-i: 6; }
-.careers-image-stack &gt; div img { width: 100%; height: 100%; object-fit: cover; }
-.careers-image-stack &gt; div:hover { transform: scale(1.15) translateY(-15px) !important; z-index: 99 !important; }
+  --arc-shift: 0;
+  --arc-shift-delta: 0.010;
 
-.careers-lightbox { display: none; position: fixed; z-index: 9999; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); align-items: center; justify-content: center; }
-.careers-lightbox.active { display: flex; }
-.careers-lightbox-content { max-width: 90%; max-height: 85vh; border-radius: 12px; box-shadow: 0 12px 40px rgba(0,0,0,0.5); }
-.careers-lightbox-close { position: absolute; top: 25px; right: 35px; color: #fff; font-size: 40px; font-weight: bold; cursor: pointer; }
+  position: relative;
+  width: var(--card-width);
+  aspect-ratio: 4/6;
+  margin: 0 auto;
+}
+
+.careers-image-stack &gt; div {
+  --card-i: 1;
+  --arc-step: calc(var(--arc-size) / (var(--cards) - 1));
+    
+  position: absolute;
+  width: var(--card-width);
+  aspect-ratio: 4/6;
+  background: white;
+  border-radius: var(--card-border-radius);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.06);
+
+  offset-path: circle(var(--radius) at 50% 100%);
+  offset-distance: calc(
+    (var(--arc-start)
+     + (var(--card-i) - 1) * var(--arc-step)
+     + var(--arc-shift)
+    ) * 100%
+  );
+
+  offset-rotate: auto;
+  offset-anchor: 50% 0%;
+  transition: all var(--card-trans-duration) var(--card-trans-easing);
+  transform-origin: center top;
+}
+
+/* Dynamic nth-child mapping for 14 cards */
+.careers-image-stack &gt; div:nth-child(1) { --card-i: 1; z-index: 29; }
+.careers-image-stack &gt; div:nth-child(2) { --card-i: 2; z-index: 32; }
+.careers-image-stack &gt; div:nth-child(3) { --card-i: 3; z-index: 35; }
+.careers-image-stack &gt; div:nth-child(4) { --card-i: 4; z-index: 38; }
+.careers-image-stack &gt; div:nth-child(5) { --card-i: 5; z-index: 41; }
+.careers-image-stack &gt; div:nth-child(6) { --card-i: 6; z-index: 44; }
+.careers-image-stack &gt; div:nth-child(7) { --card-i: 7; z-index: 47; }
+.careers-image-stack &gt; div:nth-child(8) { --card-i: 8; z-index: 50; }
+.careers-image-stack &gt; div:nth-child(9) { --card-i: 9; z-index: 47; }
+.careers-image-stack &gt; div:nth-child(10) { --card-i: 10; z-index: 44; }
+.careers-image-stack &gt; div:nth-child(11) { --card-i: 11; z-index: 41; }
+.careers-image-stack &gt; div:nth-child(12) { --card-i: 12; z-index: 38; }
+.careers-image-stack &gt; div:nth-child(13) { --card-i: 13; z-index: 35; }
+.careers-image-stack &gt; div:nth-child(14) { --card-i: 14; z-index: 32; }
+
+/* Hover effects */
+.careers-image-stack &gt; div:hover {
+  offset-anchor: 50% 15%;
+  z-index: 100 !important;
+  box-shadow: 0 15px 45px rgba(243, 112, 34, 0.35);
+  border: 2px solid #f37022;
+}
+
+/* Arc shift offsets on hover to move siblings away */
+.careers-image-stack &gt; div:hover + div { --arc-shift: calc(var(--arc-shift-delta) * 3); }
+.careers-image-stack &gt; div:hover + div + div { --arc-shift: calc(var(--arc-shift-delta) * 2); }
+.careers-image-stack &gt; div:hover + div + div + div { --arc-shift: calc(var(--arc-shift-delta) * 1); }
+
+.careers-image-stack &gt; div:has(+*:hover) { --arc-shift: calc(var(--arc-shift-delta) * -3); }
+.careers-image-stack &gt; div:has(+*+*:hover) { --arc-shift: calc(var(--arc-shift-delta) * -2); }
+.careers-image-stack &gt; div:has(+*+*+*:hover) { --arc-shift: calc(var(--arc-shift-delta) * -1); }
+
+.careers-image-stack &gt; div &gt; img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: inherit;
+}
+
+/* Lightbox Styling with Navigation Arrows */
+.careers-lightbox {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.88);
+  backdrop-filter: blur(8px);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.careers-lightbox.active {
+  opacity: 1;
+}
+
+.careers-lightbox-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 80vw;
+  max-height: 85vh;
+}
+
+.careers-lightbox-content {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 16px 50px rgba(0,0,0,0.5);
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.careers-lightbox-caption {
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 6px 18px;
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
+}
+
+.careers-lightbox-close {
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 300;
+  cursor: pointer;
+  z-index: 100000;
+  transition: transform 0.2s ease, color 0.2s ease;
+  line-height: 1;
+}
+
+.careers-lightbox-close:hover {
+  color: #f37022;
+  transform: scale(1.15);
+}
+
+.careers-lightbox-prev,
+.careers-lightbox-next {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  font-size: 40px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+  user-select: none;
+  z-index: 100000;
+}
+
+.careers-lightbox-prev:hover,
+.careers-lightbox-next:hover {
+  background: #f37022;
+  border-color: #f37022;
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(243, 112, 34, 0.4);
+}
 &lt;/style&gt;
 
 &lt;script&gt;
 document.addEventListener('DOMContentLoaded', function() {
-  const stack = document.querySelector('.careers-image-stack');
-  const cards = stack ? stack.querySelectorAll('div') : [];
+  const cards = document.querySelectorAll('.careers-image-stack &gt; div');
   const lightbox = document.getElementById('careers-lightbox');
   const lightboxImg = document.getElementById('careers-lightbox-img');
+  const lightboxCaption = document.getElementById('careers-lightbox-caption');
   const closeBtn = document.querySelector('.careers-lightbox-close');
+  const prevBtn = document.querySelector('.careers-lightbox-prev');
+  const nextBtn = document.querySelector('.careers-lightbox-next');
 
-  cards.forEach((card, index) => {
-    const angle = (index - 3) * 8;
-    const translateX = (index - 3) * 45;
-    const translateY = Math.abs(index - 3) * 10;
-    card.style.transform = `translateX(${translateX}px) translateY(${translateY}px) rotate(${angle}deg)`;
-    card.style.zIndex = index + 1;
+  let imageList = [];
+  let currentIndex = 0;
 
-    card.addEventListener('click', function() {
+  if (cards.length &gt; 0) {
+    cards.forEach((card, idx) =&gt; {
       const img = card.querySelector('img');
-      if (img && lightbox && lightboxImg) {
-        lightboxImg.src = img.src;
-        lightbox.classList.add('active');
+      if (img) {
+        imageList.push({
+          src: img.src,
+          alt: img.alt || `Bitqik Team Photo ${idx + 1}`
+        });
+      }
+
+      card.addEventListener('click', function() {
+        openLightbox(idx);
+      });
+    });
+
+    function openLightbox(index) {
+      if (!lightbox || !lightboxImg || imageList.length === 0) return;
+      currentIndex = (index + imageList.length) % imageList.length;
+      updateLightboxContent();
+      
+      lightbox.style.display = 'flex';
+      lightbox.offsetHeight; // force reflow
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function updateLightboxContent() {
+      lightboxImg.style.opacity = '0';
+      lightboxImg.style.transform = 'scale(0.96)';
+      
+      setTimeout(() =&gt; {
+        const item = imageList[currentIndex];
+        lightboxImg.src = item.src;
+        if (lightboxCaption) {
+          lightboxCaption.textContent = `${currentIndex + 1} / ${imageList.length} • ${item.alt}`;
+        }
+        lightboxImg.style.opacity = '1';
+        lightboxImg.style.transform = 'scale(1)';
+      }, 150);
+    }
+
+    function prevImage() {
+      currentIndex = (currentIndex - 1 + imageList.length) % imageList.length;
+      updateLightboxContent();
+    }
+
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % imageList.length;
+      updateLightboxContent();
+    }
+
+    function closeLightbox() {
+      if (!lightbox) return;
+      lightbox.classList.remove('active');
+      setTimeout(() =&gt; {
+        if (!lightbox.classList.contains('active')) {
+          lightbox.style.display = 'none';
+        }
+      }, 300);
+      document.body.style.overflow = '';
+    }
+
+    if (closeBtn) closeBtn.addEventListener('click', closeLightbox);
+    if (prevBtn) prevBtn.addEventListener('click', prevImage);
+    if (nextBtn) nextBtn.addEventListener('click', nextImage);
+
+    lightbox.addEventListener('click', function(e) {
+      if (e.target === lightbox || e.target.classList.contains('careers-lightbox-box')) {
+        closeLightbox();
       }
     });
-  });
 
-  if (closeBtn && lightbox) {
-    closeBtn.addEventListener('click', () => lightbox.classList.remove('active'));
-    lightbox.addEventListener('click', (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); });
+    document.addEventListener('keydown', function(e) {
+      if (lightbox &amp;&amp; lightbox.classList.contains('active')) {
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowLeft') prevImage();
+        if (e.key === 'ArrowRight') nextImage();
+      }
+    });
   }
 });
 &lt;/script&gt;</code></pre>
