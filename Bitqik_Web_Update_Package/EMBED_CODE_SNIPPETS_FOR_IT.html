@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bitqik Ready-to-Copy Embed Snippets for IT</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 960px; margin: 0 auto; padding: 30px; background: #f8f9fa; }
+        h1 { color: #003159; border-bottom: 3px solid #f37022; padding-bottom: 10px; }
+        h2 { color: #f37022; margin-top: 40px; }
+        .snippet-box { background: #1e1e1e; color: #d4d4d4; padding: 20px; border-radius: 8px; overflow-x: auto; font-family: "Courier New", monospace; font-size: 14px; position: relative; }
+        .copy-btn { position: absolute; top: 12px; right: 12px; background: #f37022; color: #fff; border: none; padding: 6px 14px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+        .copy-btn:hover { background: #d95e14; }
+        .note { background: #e3f2fd; border-left: 4px solid #2196f3; padding: 12px 16px; margin: 15px 0; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <h1>🚀 Bitqik Ready-to-Copy Embed Snippets for IT / Web Developers</h1>
+    <p>This document contains standalone, copy-pasteable HTML/CSS/JS snippets for custom components built for the Bitqik website.</p>
+
+    <!-- SECTION 1 -->
+    <h2>1. About Us: Marquee Along SVG Path Component</h2>
+    <p>Embed this code into the About Us page below the text/image section for the smooth floating crypto coins animation along an SVG wave path.</p>
+    
+    <div class="note">
+        <strong>Notes for IT:</strong> Set `baseVelocity: 3.0` for slow smooth floating effect. Works on all modern browsers.
+    </div>
+
+    <div class="snippet-box">
+        <button class="copy-btn" onclick="copySnippet('marquee-code')">Copy Code</button>
+        <pre id="marquee-code"><code>&lt;!-- ========================================== --&gt;
+&lt;!-- ABOUT US: MARQUEE ALONG SVG PATH COMPONENT  --&gt;
+&lt;!-- ========================================== --&gt;
+&lt;div class="bq-white-path-wrapper" id="bq-marquee-path-studio" style="background:#ffffff; padding: 60px 0; overflow:hidden; width:100%;"&gt;
+  &lt;style&gt;
+    .bq-white-path-container { position: relative; width: 100%; max-width: 1200px; margin: 0 auto; height: 350px; }
+    .bq-white-path-svg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
+    .bq-clean-coin { width: 52px; height: 52px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #ffffff; box-shadow: 0 8px 24px rgba(0,0,0,0.08); transition: transform 0.3s ease; cursor: pointer; }
+    .bq-clean-coin:hover { transform: scale(1.3); z-index: 10; }
+    .bq-clean-coin img { width: 42px; height: 42px; object-fit: contain; border-radius: 50%; }
+  &lt;/style&gt;
+
+  &lt;div class="bq-white-path-container" id="bq-marquee-container"&gt;
+    &lt;svg class="bq-white-path-svg" viewBox="0 0 1200 350" preserveAspectRatio="none"&gt;
+      &lt;path id="bq-svg-path-clean" d="M -50 210 C 150 290, 350 310, 520 180 C 680 50, 850 80, 1020 220 C 1120 290, 1220 250, 1300 200" fill="none" stroke="transparent" stroke-width="2"/&gt;
+      &lt;g id="bq-coins-layer"&gt;&lt;/g&gt;
+    &lt;/svg&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+(function() {
+  const coinIcons = [
+    'https://cryptologos.cc/logos/bitcoin-btc-logo.png',
+    'https://cryptologos.cc/logos/ethereum-eth-logo.png',
+    'https://cryptologos.cc/logos/tether-usdt-logo.png',
+    'https://cryptologos.cc/logos/solana-sol-logo.png',
+    'https://cryptologos.cc/logos/bnb-bnb-logo.png',
+    'https://cryptologos.cc/logos/xrp-xrp-logo.png',
+    'https://cryptologos.cc/logos/cardano-ada-logo.png',
+    'https://cryptologos.cc/logos/dogecoin-doge-logo.png',
+    'https://cryptologos.cc/logos/avalanche-avax-logo.png',
+    'https://cryptologos.cc/logos/polkadot-new-dot-logo.png',
+    'https://cryptologos.cc/logos/chainlink-link-logo.png',
+    'https://cryptologos.cc/logos/near-protocol-near-logo.png',
+    'https://cryptologos.cc/logos/tron-trx-logo.png'
+  ];
+
+  function initMarquee() {
+    const path = document.getElementById('bq-svg-path-clean');
+    const layer = document.getElementById('bq-coins-layer');
+    if (!path || !layer) return;
+
+    let pathLen = path.getTotalLength();
+    if (!pathLen) { requestAnimationFrame(initMarquee); return; }
+
+    layer.innerHTML = '';
+    const items = [];
+    const count = coinIcons.length;
+    const spacing = pathLen / count;
+
+    for (let i = 0; i < count; i++) {
+      const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+      const fo = document.createElementNS('http://www.w3.org/2000/svg', 'foreignObject');
+      fo.setAttribute('width', '60');
+      fo.setAttribute('height', '60');
+      fo.setAttribute('x', '-30');
+      fo.setAttribute('y', '-30');
+
+      const div = document.createElement('div');
+      div.className = 'bq-clean-coin';
+      div.innerHTML = '&lt;img src="' + coinIcons[i] + '" alt="crypto"&gt;';
+      fo.appendChild(div);
+      g.appendChild(fo);
+      layer.appendChild(g);
+
+      items.push({ el: g, dist: i * spacing });
+    }
+
+    let lastTime = performance.now();
+    const speed = 40; // pixels per second
+
+    function animate(now) {
+      const dt = (now - lastTime) / 1000;
+      lastTime = now;
+
+      items.forEach(item => {
+        item.dist = (item.dist + speed * dt) % pathLen;
+        const pt = path.getPointAtLength(item.dist);
+        item.el.setAttribute('transform', 'translate(' + pt.x + ',' + pt.y + ')');
+      });
+
+      requestAnimationFrame(animate);
+    }
+    requestAnimationFrame(animate);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initMarquee);
+  } else {
+    initMarquee();
+  }
+})();
+&lt;/script&gt;</code></pre>
+    </div>
+
+    <!-- SECTION 2 -->
+    <h2>2. Careers: Want to join our team? Photo Stack Frame Component</h2>
+    <p>Embed this code into the Careers page for the interactive 3D Photo Stack Frame gallery and Lightbox modal viewer.</p>
+
+    <div class="snippet-box">
+        <button class="copy-btn" onclick="copySnippet('stack-code')">Copy Code</button>
+        <pre id="stack-code"><code>&lt;!-- ======================================================== --&gt;
+&lt;!-- CAREERS: WANT TO JOIN OUR TEAM? PHOTO STACK COMPONENT   --&gt;
+&lt;!-- ======================================================== --&gt;
+&lt;div class="careers-image-stack-container"&gt;
+  &lt;div class="careers-image-stack"&gt;
+    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1302.JPG" alt="Team Photo 1"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1304.JPG" alt="Team Photo 2"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1306.JPG" alt="Team Photo 3"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1318.JPG" alt="Team Photo 4"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1321.JPG" alt="Team Photo 5"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1327.JPG" alt="Team Photo 6"&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;img src="./Careers_Assets/IMG_1333.JPG" alt="Team Photo 7"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Lightbox Modal for Large View --&gt;
+  &lt;div id="careers-lightbox" class="careers-lightbox"&gt;
+    &lt;span class="careers-lightbox-close"&gt;&amp;times;&lt;/span&gt;
+    &lt;img class="careers-lightbox-content" id="careers-lightbox-img" src="" alt="Enlarged view"&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.careers-image-stack-container { display: flex; justify-content: center; align-items: center; width: 100%; min-height: 480px; position: relative; padding: 40px 0; }
+.careers-image-stack {
+  --card-trans-duration: 1000ms;
+  --card-border-radius: 14px;
+  --card-width: 160px;
+  --radius: 320px; 
+  --cards: 7;
+  --arc-size: 0.22;
+  --arc-center: 0.75;
+  --arc-start: calc(var(--arc-center) - var(--arc-size) / 2);
+  position: relative; width: var(--card-width); aspect-ratio: 4/6; margin: 0 auto;
+}
+.careers-image-stack &gt; div {
+  --arc-step: calc(var(--arc-size) / (var(--cards) - 1));
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: var(--card-border-radius); overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15); cursor: pointer; transition: transform var(--card-trans-duration) ease;
+}
+.careers-image-stack &gt; div:nth-child(1) { --card-i: 0; }
+.careers-image-stack &gt; div:nth-child(2) { --card-i: 1; }
+.careers-image-stack &gt; div:nth-child(3) { --card-i: 2; }
+.careers-image-stack &gt; div:nth-child(4) { --card-i: 3; }
+.careers-image-stack &gt; div:nth-child(5) { --card-i: 4; }
+.careers-image-stack &gt; div:nth-child(6) { --card-i: 5; }
+.careers-image-stack &gt; div:nth-child(7) { --card-i: 6; }
+.careers-image-stack &gt; div img { width: 100%; height: 100%; object-fit: cover; }
+.careers-image-stack &gt; div:hover { transform: scale(1.15) translateY(-15px) !important; z-index: 99 !important; }
+
+.careers-lightbox { display: none; position: fixed; z-index: 9999; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); align-items: center; justify-content: center; }
+.careers-lightbox.active { display: flex; }
+.careers-lightbox-content { max-width: 90%; max-height: 85vh; border-radius: 12px; box-shadow: 0 12px 40px rgba(0,0,0,0.5); }
+.careers-lightbox-close { position: absolute; top: 25px; right: 35px; color: #fff; font-size: 40px; font-weight: bold; cursor: pointer; }
+&lt;/style&gt;
+
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function() {
+  const stack = document.querySelector('.careers-image-stack');
+  const cards = stack ? stack.querySelectorAll('div') : [];
+  const lightbox = document.getElementById('careers-lightbox');
+  const lightboxImg = document.getElementById('careers-lightbox-img');
+  const closeBtn = document.querySelector('.careers-lightbox-close');
+
+  cards.forEach((card, index) => {
+    const angle = (index - 3) * 8;
+    const translateX = (index - 3) * 45;
+    const translateY = Math.abs(index - 3) * 10;
+    card.style.transform = `translateX(${translateX}px) translateY(${translateY}px) rotate(${angle}deg)`;
+    card.style.zIndex = index + 1;
+
+    card.addEventListener('click', function() {
+      const img = card.querySelector('img');
+      if (img && lightbox && lightboxImg) {
+        lightboxImg.src = img.src;
+        lightbox.classList.add('active');
+      }
+    });
+  });
+
+  if (closeBtn && lightbox) {
+    closeBtn.addEventListener('click', () => lightbox.classList.remove('active'));
+    lightbox.addEventListener('click', (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); });
+  }
+});
+&lt;/script&gt;</code></pre>
+    </div>
+
+    <script>
+    function copySnippet(id) {
+        const code = document.getElementById(id).innerText;
+        navigator.clipboard.writeText(code).then(() => {
+            alert('Snippet copied to clipboard!');
+        });
+    }
+    </script>
+</body>
+</html>
